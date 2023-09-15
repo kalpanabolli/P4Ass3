@@ -1,0 +1,11 @@
+
+
+docker build -t movieimage -f D:\Phase4\Day4\Ass3\Ass3\Dockerfile .
+
+docker images
+
+docker run -d -p 8080:80 --name moviecontainer movieimage
+
+
+http://localhost:8080/api/Movie
+
